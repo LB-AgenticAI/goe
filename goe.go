@@ -70,7 +70,7 @@ func NewApp() error {
 	appInstance.container.InitFiber()
 
 	// Init EMQX
-	appInstance.container.InitEMQX()
+	//appInstance.container.InitEMQX()
 
 	return nil
 }
